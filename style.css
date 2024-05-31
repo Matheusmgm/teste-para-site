@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fjalla One", sans-serif;
+}
+
+header {
+    margin-left: 76px;
+    margin-top: 44px;
+    
+}
+
+a {
+    padding: 23px;
+    text-decoration: none;
+    color: #3C7DA6;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #0E1D26;
+    transition: 0.5s;
+    font-size: 16.5px;
+}
+
+.img-capsulecorp{
+    width: 568px;
+    height: 500px;
+}
+
+.botao-login {
+    width: 100px;
+    height: 34px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #3C7DA6;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 56px;
+    margin-left: 0px;
+}
+
+h1{
+    margin-left: -4px;
+    font-size: 100px;
+    color: #3C7DA6;
+
+}
+
+h2{
+    font-size: 28px;
+
+}
+
+.caixa-2 {
+    margin-right: 150px;
+    justify-content: left;
+    
+}
+
+p {
+    padding-top: 12px;
+}
+
+.explorar {
+    position: relative;
+    margin-top: 12px;
+    width: 100px;
+    height: 34px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #3C7DA6;
+    color: aliceblue;
+
+}
+
+@media (max-width: 1085px) {
+    h1{
+        width: 100px;
+        color:red;
+        
+    }
+}
